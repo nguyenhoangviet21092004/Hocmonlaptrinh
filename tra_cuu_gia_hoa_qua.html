@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <input type="text" id="hoaqua" >
+        <button type="button" onclick="giahoaqua();">Tính giá hoa quả</button>
+
+    </form>
+    <script>
+
+      function giahoaqua() {
+        let tenhoaqua=document.getElementById("hoaqua").value;
+        switch (tenhoaqua) {
+            case "Ôỉ":
+                document.write(tenhoaqua + "có giá là 20000 nghìn /kg");
+                break;
+                case "Dưa hấu":
+                    document.write(tenhoaqua + "có giá là 20000 nghìn /kg");
+                    break;
+                    case "Táo":
+                        docuent.write(tenhoaqua  +"có giá là 30000 nghìn /kg");
+                        break;
+                        case "Xoài":
+                            document.write(tenhoaqua + "có giá là 30000 nghìn /kg");
+                            break;
+                            case "Cam":
+                                document.write(tenhoaqua + "có giá là 40000 nghìn/ kg");
+                                break;
+                                case "Chôm chôm":
+                                    document.write(tenhoaqua + "có giá là 40000 nghìn /kg");
+                                    case "Măng cụt":
+                                        document.write(tenhoaqua + "có giá là 50000 nghìn /kg");
+                                        break;
+                                        default:
+                                            document.write("errol");
+                                            break;
+
+
+        }
+    }
+        
+    </script>
+</body>
+</html>
